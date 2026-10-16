@@ -1,0 +1,6 @@
+{
+  "name": "Sentinel",
+  "description": "On-Device App Risk Auditor that analyzes declared permissions, granted permissions, special access, and risk combinations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

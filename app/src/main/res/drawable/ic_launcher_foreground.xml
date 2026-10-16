@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Frame -->
+    <path
+        android:pathData="M54,23 L78,33 C78,57 67,73 54,83 C41,73 30,57 30,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="23"
+                android:endX="78"
+                android:endY="83"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F0FF" />
+                <item android:offset="0.5" android:color="#7000FF" />
+                <item android:offset="1.0" android:color="#00F0FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark Shield Cutout -->
+    <path
+        android:fillColor="#0D1527"
+        android:pathData="M54,27 L74,35.5 C74,55 65,69 54,78 C43,69 34,55 34,35.5 Z" />
+    <!-- Cyber Security Core - Radar / Scanner Lock -->
+    <!-- Arc 1 -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,48 C44,42 48.5,38 54,38 C59.5,38 64,42 64,48" />
+    <!-- Arc 2 (Lower) -->
+    <path
+        android:strokeColor="#8C52FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,54 C42,61 47,66 54,66 C61,66 66,61 66,54" />
+    <!-- Center Scanner Node -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M54,49 A4,4 0 1,0 54,57 A4,4 0 1,0 54,49" />
+    <!-- Horizontal Crosshair Ticks -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M37,53 L40,53 M68,53 L71,53" />
+    <!-- Top Beacon Pip -->
+    <path
+        android:fillColor="#7000FF"
+        android:pathData="M54,31 L56.5,35 L51.5,35 Z" />
+</vector>

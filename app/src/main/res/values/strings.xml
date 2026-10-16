@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sentinel</string>
+    <string name="app_subtitle">On-Device App Risk Auditor</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="scanning">Auditing Installed Applications…</string>
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_apps">Installed Apps</string>
+    <string name="tab_permissions">Permissions</string>
+    <string name="tab_settings">Settings</string>
+</resources>
